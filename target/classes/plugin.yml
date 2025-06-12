@@ -1,0 +1,13 @@
+name: MythicKoth
+version: '1.0'
+main: plugin.MythicKoth.main
+api-version: '1.21'
+depend:
+  - WorldGuard
+  - WorldEdit
+commands:
+  koth:
+    description: KOTH main command
+    usage: /koth <subcommand>
+    permission: mythickoth.use
+    permission-message: You do not have permission to use this command
